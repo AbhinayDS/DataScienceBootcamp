@@ -1,0 +1,45 @@
+1. Why are functions advantageous to have in your programs?
+Ans: functions can be used at any time and any where required without writing everytime. we create the function once and can be reused the logic instantly. 
+
+2. When does the code in a function run: when it's specified or when it's called?
+Ans: when were it is called.
+
+3. What statement creates a function?
+Ans: def
+
+4. What is the difference between a function and a function call?
+Ans: A function is just a block of code which contain the logic to perform required operation.
+But function call is using that block of code wherever required in program.
+
+5. How many global scopes are there in a Python program? How many local scopes?
+Ans: one global scope and one local scope  
+
+6. What happens to variables in a local scope when the function call returns?
+Ans: it returns as output
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans: return value concept is used to get an mandated output, i.e, if we require a output once the function is executed then we wirte return value at the end.
+no it is not possible to give a return value in expression.
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Ans: nothing, fucntion just performs its operation or logic.
+
+9. How do you make a function variable refer to the global variable?
+Ans: by writing global keyword before variable name.
+
+10. What is the data type of None?
+Ans: Nonetype
+
+11. What does the sentence import areallyourpetsnamederic do?
+Ans: it is not a valid or existing module in python, so it shows an error.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Ans: bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+Ans: we can write the program in try block and it encounters an error, program jump to except block where it gives an message regarding the error without crashing the entire program.
+This concept is called as exceptional handling.
+
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Ans: try is the block which handles the program to avoid crashing from error, and except block is to handle the error with throwing a related message regarding error. 
