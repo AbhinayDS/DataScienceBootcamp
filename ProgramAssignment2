@@ -1,0 +1,23 @@
+1. Write a Python program to convert kilometers to miles?
+km = int(input())
+mile=km/1.609
+print(mile)
+
+2. Write a Python program to convert Celsius to Fahrenheit?
+Cel = int(input())
+Fah = (Cel* (9/5)+32)
+print(Fah)
+
+3. Write a Python program to display calendar?
+import calendar
+print (calendar.calendar(2022))
+
+4. Write a Python program to solve quadratic equation?
+
+
+5. Write a Python program to swap two variables without temp variable?
+x = 10
+y = 20
+
+x,y=y,x
+print(x,y)
