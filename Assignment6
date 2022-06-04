@@ -1,0 +1,36 @@
+1. What are escape characters, and how do you use them?
+Ans: escape character is used to insert a illegal value. '\' followed by any illegal character is used to use this escape character.
+
+2. What do the escape characters n and t stand for?
+Ans: n is used to goto new line, t is used to have space of tab.
+
+3. What is the way to include backslash characters in a string?
+Ans: \b
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+word Howl's not escaped a problem?
+Ans: Because single quote is in between double qoutes.
+
+5. How do you write a string of newlines if you don't want to use the n character?
+Ana: we can write by using another print, but without print and n cannot be goto new line.
+
+6. What are the values of the given expressions?
+'Hello, world!'[1] --- 'e'
+'Hello, world!'[0:5] --- 'Hello'
+'Hello, world!'[:5] --- 'Hello'
+'Hello, world!'[3:] --- 'lo, world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper() --- 'HELLO'
+'Hello'.upper().isupper() --- True
+'Hello'.upper().lower() --- 'hello'
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split() --- ['Remember,','remember,','the','fifth','of','July.']
+'-'.join('There can only one.'.split()) --- 'There-can-only-one.'
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans: .rjust(lenght,'insertingvalue')  ,  .ljust(lenght,'insertingvalue') and .center(lenght,'insertingvalue').
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans: "".join(string.split())
